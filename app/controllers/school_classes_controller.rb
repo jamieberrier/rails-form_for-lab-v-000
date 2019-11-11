@@ -4,8 +4,8 @@ class SchoolClassesController < ApplicationController
 
   def create
     binding.pry
-    @school_class = SchoolClass.create(room_number: params[:school_class][:room_number])
-  end
+    @school_class = SchoolClass.create(room_number: params[:school_class][:room_number], title: )
+  endparams[:school_class][:title]
 
   def show
   end
