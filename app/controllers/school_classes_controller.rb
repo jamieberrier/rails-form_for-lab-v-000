@@ -3,6 +3,7 @@ class SchoolClassesController < ApplicationController
   end
 
   def create
+    binding.pry
     @school_class = SchoolClass.create()
   end
 
