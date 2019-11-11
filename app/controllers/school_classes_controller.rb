@@ -3,6 +3,7 @@ class SchoolClassesController < ApplicationController
   end
 
   def create
+    @school_class = SchoolClass.create()
   end
 
   def show
