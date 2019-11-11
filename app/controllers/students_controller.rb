@@ -25,6 +25,9 @@ class StudentsController < ApplicationController
 
   private
 
+  def find_student
+  end
+
 	def student_params(*args)
 	  params.require(:student).permit(*args)
 	end
